@@ -21,42 +21,42 @@ function App() {
             <div className="buttons are-medium column is-4 is-offset-1 ">
 
               <div >
-                <button className="my-5 button is-info is-fullwidth">
-                  <a className="has-text-warning-light" href="https://twitter.com/siberiy4" target="_blank" rel="noopener noreferrer">
+                <a className="has-text-warning-light" href="https://twitter.com/siberiy4" target="_blank" rel="noopener noreferrer">
+                  <button className="my-5 button is-info is-fullwidth">
                     <span className="icon-text has-text-centered">
                       <span className="icon">
                         <FontAwesomeIcon icon={faTwitter} />
                       </span>
                       <span>Twitter</span>
                     </span>
-                  </a>
                 </button>
+                </a>
               </div>
 
               <div>
-                <button className="my-5 button is-dark is-fullwidth">
-                  <a className="has-text-warning-light" href="https://github.com/yo-kanyukari" target="_blank" rel="noopener noreferrer">
+                <a className="has-text-warning-light" href="https://github.com/yo-kanyukari" target="_blank" rel="noopener noreferrer">
+                  <button className="my-5 button is-dark is-fullwidth">
                     <span className="icon-text">
                       <span className="icon">
                         <FontAwesomeIcon icon={faGithubAlt} />
                       </span>
                       <span>GitHub</span>
                     </span>
-                  </a>
                 </button>
+                </a>
               </div>
 
               <div>
-                <button className="my-5 button is-warning is-fullwidth">
-                  <a className="has-text-black-ter" href="https://www.amazon.jp/hz/wishlist/ls/33THA53ST32R1?ref_=wl_share" target="_blank" rel="noopener noreferrer" >
+                <a className="has-text-black-ter" href="https://www.amazon.jp/hz/wishlist/ls/33THA53ST32R1?ref_=wl_share" target="_blank" rel="noopener noreferrer" >
+                  <button className="my-5 button is-warning is-fullwidth">
                     <span className="icon-text">
                       <span className="icon">
                         <FontAwesomeIcon icon={faAmazon} />
                       </span>
                       <span>Amazon</span>
                     </span>
-                  </a>
                 </button>
+                </a>
               </div>
 
               <div>
@@ -71,16 +71,16 @@ function App() {
               </div>
 
               <div>
-                <button className="my-5 button is-link is-fullwidth">
-                  <a className="has-text-warning-light" href="https://discord.gg/FJcnXtCHfm" target="_blank" rel="noopener noreferrer">
+                <a className="has-text-warning-light" href="https://discord.gg/FJcnXtCHfm" target="_blank" rel="noopener noreferrer">
+                  <button className="my-5 button is-link is-fullwidth">
                     <span className="icon-text">
                       <span className="icon">
                         <FontAwesomeIcon icon={faDiscord} />
                       </span>
                       <span>Discord Server</span>
                     </span>
-                  </a>
                 </button>
+                </a>
               </div>
 
             </div>
