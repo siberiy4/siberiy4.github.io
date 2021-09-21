@@ -60,7 +60,7 @@ function App() {
               </div>
 
               <div>
-                <button className="my-5 button is-link is-fullwidth">
+                <button id="discord" className="my-5 button is-link is-fullwidth" onClick={()=>copyToClip("siberiy4#1380")}>
                   <span className="icon-text">
                     <span className="icon">
                       <FontAwesomeIcon icon={faDiscord} />
@@ -93,9 +93,18 @@ function App() {
 
 
 
-// function copyToClip(text: string) {
-//   navigator.clipboard.writeText(text);
-//   alert(text + 'をクリップボードにコピーしました')
-// }
+function copyToClip(text: string) {
+  navigator.clipboard.writeText(text);
+  const target = document.querySelector<HTMLElement>('#discord');
+  const before = target!.innerHTML;
+  if (target) {
+    target.innerHTML = 'コピーしました';
+  }
+
+  setTimeout(() => {
+    if (target) {
+      target.innerHTML = before;
+    } }, 1000);
+}
 
 export default App;
